@@ -1,0 +1,101 @@
+/* "block" makes nav spread from end to end across page */
+body {
+  display: block;
+  margin: 0;
+ }
+
+
+/* this is specifically for the navigation (top orange portion of page) */
+nav {
+  background-color: #fe7e00;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  color: #FFF;
+}
+nav img {
+  height: 20px;
+  padding: 5px;
+}
+nav > div > ul {
+  float: right;
+}
+/* think of this as a 'path' to the List Items */
+nav > div > ul > li {
+  display: inline;
+  margin: 20px;
+  padding: 5px;
+}
+/* this is where i styled my seach */
+form {
+  float: right;
+  padding-top: 22px;
+  margin: 59px;
+  width: 16%;
+  border-radius: 7px;
+}
+input {
+  height: 36px;
+  width: 84%;
+  margin-top: -12px;
+}
+
+
+/* the magnifying glass. tells me i moved it -26px to left inside of search field */
+.fa-search {
+  margin-left: -26px;
+}
+
+
+li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+
+img {
+  height: 360px;
+  padding-top: 176px;
+  padding-left: 216px;
+}
+
+
+.block-img {
+  width: 48%;
+  float: left;
+}
+
+
+.box-text {
+  width: 32%;
+  float: left;
+  padding-top: 79px;
+  text-align: center;
+  font-size: 27px;
+  font-family: 'Comfortaa', cursive;
+  color: orange;
+}
+
+
+/* this is the button class */
+.orange {
+  background-color: #ffa500;
+  width: 38%;
+  height: 40px;
+  border-width: 0;
+}
+.teal {
+  background-color: #97C6C0;
+  width: 38%;
+  height: 40px;
+  border-width: 0;
+}
+
+
+footer {
+  background-color: #97C6C0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}
