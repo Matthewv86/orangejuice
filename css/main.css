@@ -26,7 +26,7 @@ nav > div > ul > li {
   margin: 20px;
   padding: 5px;
 }
-/* this is where i styled my seach */
+/* this is where i styled my search */
 form {
   float: right;
   padding-top: 22px;
@@ -67,7 +67,7 @@ img {
 
 
 .box-text {
-  width: 32%;
+  width: 50%;
   float: left;
   padding-top: 79px;
   text-align: center;
@@ -75,6 +75,7 @@ img {
   font-family: 'Comfortaa', cursive;
   color: orange;
 }
+
 
 
 /* this is the button class */
@@ -98,4 +99,31 @@ footer {
   bottom: 0;
   width: 100%;
   height: 60px;
+}
+
+
+
+/** MEDIA QUERIES **/
+@media (max-width: 1082px) {
+  img {
+    height: 130px;
+    padding-top: 150px;
+    padding-left: 210px;
+  }
+  .orange {
+    width: 22%;
+    height: 41px;
+    padding-bottom: 34px;
+  }
+  .teal {
+    width: 28%;
+    height: 41px;
+  }
+  nav > div > ul > li {
+    padding-right: 34px;
+    margin: -17px;
+  }
+  nav img {
+    display: none;
+  }
 }
